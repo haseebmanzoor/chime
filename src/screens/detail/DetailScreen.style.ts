@@ -12,9 +12,10 @@ export default (theme: ExtendedTheme) => {
   const { colors } = theme;
   return StyleSheet.create<Style>({
     container: {
+      marginTop: 100,
       flex: 1,
       alignItems: "center",
-      justifyContent: "center",
+      justifyContent: "start",
     },
     titleTextStyle: {
       fontSize: 32,
